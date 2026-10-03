@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables
+.env
+**/ .env
+
+# Prisma database files (optional, but recommended if using local SQLite/MySQL files)
+*.db
+*.db-journal
